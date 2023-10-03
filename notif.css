@@ -1,0 +1,129 @@
+*{ margin: 0;
+    padding : 0 ;
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.Containermain{
+  margin: auto;
+    width: 390px;
+    height: 781px;
+  background-color:#FBE09D;
+    border-radius: 15px;
+
+}
+.main{
+    display: flex;
+
+}
+.backicon a {
+font-size: 50px;
+   margin: 15px 15px 15px 15px;
+}
+.notification h2{
+    margin:45px 50px;
+    font-size: 30px;
+
+}
+
+.notifmain{
+    border: 1px outset black;
+    margin-top: 20px;
+    margin-left: 14px;
+        width: 360px;
+        height: 121px;
+  background-color:#F8F2BD;
+  
+        
+    }
+    .notif1{
+        display: flex;
+    }
+  .notif1 i{
+        font-size: 25px;
+        margin-left: 10px; 
+        margin-top: 10px;
+        
+    }
+     .notif1 p{
+        margin-left: 10px;
+        margin-top: 15px;
+        font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .notifmain h5{
+        color:grey;
+        margin-left: 267px;
+        margin-top: 15px;;
+        font-size: 15px;
+
+    }
+    .notif2{
+        display: flex;
+    }
+  .notif2 i{
+        font-size: 25px;
+        margin-left: 10px; 
+        margin-top: 10px;
+        
+    }
+     .notif2 p{
+        margin-left: 10px;
+        margin-top: 15px;
+        font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+
+    .notif3{
+        display: flex;
+    }
+  .notif3 i{
+        font-size: 25px;
+        margin-left: 10px; 
+        margin-top: 10px;
+        
+    }
+     .notif3 p{
+        margin-left: 10px;
+        margin-top: 15px;
+        font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+
+    
+    .notif4{
+        display: flex;
+    }
+  .notif4 i{
+        font-size: 25px;
+        margin-left: 10px; 
+        margin-top: 10px;
+        
+    }
+     .notif4 p{
+        margin-left: 10px;
+        margin-top: 15px;
+        font-size: 25px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .footer{
+        border: 2px ;
+    margin-top: 30px;
+    height: 63px;
+    width: 390px;
+   background-color: #F4BD53;
+   border-bottom-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+}
+
+    
+    
+    
+    
+
