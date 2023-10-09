@@ -1,0 +1,166 @@
+*{ margin: 0;
+    padding : 0 ;
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.Containermain{
+  margin: auto;
+    width: 390px;
+    height: 781px;
+  background-color:#F8F2BD;
+    border-radius: 15px;
+
+}
+
+.backicon{
+    border: 1px outset black ;
+    width: 45.75px;
+    height: 40px;
+    margin-top: 50px;
+    margin-left: 10px;
+    display: flex;
+
+}
+h3{
+    margin-top: 35PX;
+    
+    margin-bottom: 50px;
+    
+    text-align: center;
+    font-size:34px;
+}
+
+h4{
+    margin-top: 10px;
+    font-size: 25px;
+}
+.box1{
+ border: 2px outset black;  
+    
+    margin: auto;
+    width: 359px;
+    height: 356px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color:#F8F2BD ;
+
+}
+.email{
+    display: flex
+}
+
+.box1 input[type ="Email"]{
+    margin-left: 7px;
+    margin-top: 15px;
+     border: 1px outset #FBE09D;
+    border-bottom: 2px solid #FBE09D ;
+    background-color:#F8F2BD ;
+    outline:none;
+    width: 237px;
+    height: 50px;
+    border-radius: 20px;
+   
+}
+.send{
+    border: 2px #FBE09D;
+    width: 87px;
+    height: 50px;
+    font-size: 20px;
+    margin-top: 17px;
+    margin-left:16px;
+    font-family:fantasy;
+    background-color:  #FCE35F;
+    border-radius: 15px;  
+}
+.send a{
+     text-decoration: none;
+    margin-left: 15px;
+    margin-top: 6px;
+    font-size: 25px;
+    font-family:fantasy;
+    color: black;
+display: flex;
+}
+
+.vcodes{
+    display: flex;
+}
+.box1 input[type ="vcode"]{
+    margin-left: 7px;
+    margin-top: 15px;
+     border: 1px outset #FBE09D;
+    border-bottom: 2px solid #FBE09D ;
+    background-color:#F8F2BD ;
+    outline:none;
+    width: 206px;
+    height: 50px;
+    border-radius: 20px;
+display: flex;
+}
+
+.verify{
+      border: 2px #FBE09D;
+    width: 117px;
+    height: 50px;
+    font-size: 20px;
+    margin-top: 17px;
+    margin-left:16px;
+    font-family:fantasy;
+    background-color:  #FCE35F;
+    border-radius: 15px;
+}
+.verify a{
+
+     text-decoration: none;
+    margin-left: 30px;
+    margin-top: 6px;
+    font-size: 25px;
+    font-family:fantasy;
+    color: black;
+    display: flex;
+}
+
+
+.cpass{
+    margin-top: 50px;
+
+    border: 2px #FBE09D;
+    width: 237px;
+    height: 53px;
+    margin-left:60px;
+    background-color:  #FCE35F;
+    border-radius: 15px;
+
+    
+}
+.cpass a{
+    text-decoration: none;
+    margin-left: 25px;
+        margin-top: 10px;
+    font-size: 25px;
+    font-family:fantasy;
+    color: black;
+}
+.logo{
+    
+    margin-left: 100px;
+    margin-bottom: 5px;
+     width:196px;
+    height: 150px;
+}
+.footer{
+    border: 2px ;
+    margin-top: 30px;
+    height: 63px;
+    width: 390px;
+   background-color: #F4BD53;
+   border-bottom-left-radius: 20px;
+   border-bottom-right-radius: 20px;
+}
+
+
