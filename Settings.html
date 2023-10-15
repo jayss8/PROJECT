@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Delocate</title>
+    <link rel="stylesheet" type="text/css" href="Settings.css">
+    <link rel="stylesheet" href="https://kit.fontawesome.com/c7cba7c9fe.js" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/c7cba7c9fe.js" crossorigin="anonymous"></script>
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="menu">
+            <!-- "Back" button to close the menu -->
+            <div class="back-button" onclick="toggleMenu()">&#10006;</div>
+
+
+            <ul>
+                <li><a href="#"><i class="fa-solid fa-house" style="color: red;"></i> Home</a></li>
+                <li><a href="#"><i class="fa-sharp fa-solid fa-map-location-dot" style="color: #0f0a52;"></i> Map</a>
+                </li>
+                <li><a href="#"><i class="fa-solid fa-utensils" style=" color: #237816;"></i>Restaurant</a></li>
+                <li><a href="#"><i class="fa-regular fa-address-card" style=" color: #039BE5;"></i> About us</a></li>
+                <li><a href="#"><i class="fa-solid fa-sliders" style=" color: #FFA500;"></i> Settings</a></li>
+                <li><a href="#"><i class="fa-solid fa-right-from-bracket"></i> Log out</a></li>
+                </ol>
+            </ul>
+        </div>
+
+        <div class="content">
+
+            <div class="menu-button" onclick="toggleMenu()">&#9776;</div>
+        </div>
+        <div class="name">
+            <h2>Settings</h2>
+        </div>
+
+        <div class="content1">
+
+            <div class="firstcon">
+                <div class="text">
+                    <h4>Language</h4>
+                    <h3>Edit</h3>
+                </div>
+                <h2>English</h2>
+            </div>
+        
+<div class="check1">
+    <h2>Enable Battery Saver</h2>
+    <i class="fa-solid fa-square-check" style="color: #d49a1c;"></i>
+</div>
+
+<div class="check2">
+    <h2>Enable Notifications</h2>
+    <i class="fa-solid fa-square-check" style="color: #d49a1c;"></i>
+</div>
+<div class="check3">
+    <h2>Email me events, <br>offers ,and updates</h2>
+    <i class="fa-solid fa-square-check" style="color: #d49a1c;"></i>
+</div>
+    </div>
+    
+    <div class="footer">
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    <script>
+        function toggleMenu() {
+            const menu = document.querySelector('.menu');
+            const menuButton = document.querySelector('.menu-button');
+            const backButton = document.querySelector('.back-button');
+
+            if (menu.style.left === '0px') {
+                menu.style.left = '-290px';
+                menuButton.style.display = 'block';
+                backButton.style.display = 'none';
+            } else {
+                menu.style.left = '0px';
+                menuButton.style.display = 'none';
+                backButton.style.display = 'block';
+            }
+        }
+    </script>
+</body>
+
+</html>

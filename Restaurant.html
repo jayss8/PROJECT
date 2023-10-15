@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Delocate</title>
+    <link rel="stylesheet" type="text/css" href="Restaurant.css">
+    <link rel="stylesheet" href="https://kit.fontawesome.com/c7cba7c9fe.js" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/c7cba7c9fe.js" crossorigin="anonymous"></script>
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="menu">
+            <!-- "Back" button to close the menu -->
+            <div class="back-button" onclick="toggleMenu()">&#10006;</div>
+
+
+            <ul>
+                <li><a href="#"><i class="fa-solid fa-house" style="color: red;"></i> Home</a></li>
+                <li><a href="#"><i class="fa-sharp fa-solid fa-map-location-dot" style="color: #0f0a52;"></i> Map</a>
+                </li>
+                <li><a href="#"><i class="fa-solid fa-utensils" style=" color: #237816;"></i>Restaurant</a></li>
+                <li><a href="#"><i class="fa-regular fa-address-card" style=" color: #039BE5;"></i> About us</a></li>
+                <li><a href="#"><i class="fa-solid fa-sliders" style=" color: #FFA500;"></i> Settings</a></li>
+                <li><a href="#"><i class="fa-solid fa-right-from-bracket"></i> Log out</a></li>
+                </ol>
+            </ul>
+        </div>
+
+        <div class="content">
+
+            <div class="menu-button" onclick="toggleMenu()">&#9776;</div>
+
+        </div>
+        <div class="restaurant">
+
+            <h2>RESTAURANT</h2>
+        </div>
+
+        <div class="contents">
+            <div class="firstcon">
+
+                <i class="fa-solid fa-location-dot" style="color: #e011119d;"></i>
+                <div class="con">
+                    <h3>Muelle Deli and Restaurant,
+                        <br>Iloilo City
+                    </h3>
+                    <p>135-B Jose, Rizal St.</p>
+                </div>
+            </div>
+            <div class="secondcon">
+                <i class="fa-solid fa-location-dot" style="color: #e011119d;"></i>
+                <div class="con">
+                    <h3>The Mango Tree Restaurant</h3>
+                    <p>Brgy. 28 Guzman St.</p>
+                </div>
+            </div>
+
+            <div class="thirdcon">
+                <i class="fa-solid fa-location-dot" style="color: #e011119d;"></i>
+                <div class="con">
+                    <h3>Buto't Balar Restaurant</h3>
+                    <p>PHG5+28Q, Benedicto St.</p>
+                </div>
+            </div>
+
+            <div class="footer">
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        <script>
+            function toggleMenu() {
+                const menu = document.querySelector('.menu');
+                const menuButton = document.querySelector('.menu-button');
+                const backButton = document.querySelector('.back-button');
+
+                if (menu.style.left === '0px') {
+                    menu.style.left = '-290px';
+                    menuButton.style.display = 'block';
+                    backButton.style.display = 'none';
+                } else {
+                    menu.style.left = '0px';
+                    menuButton.style.display = 'none';
+                    backButton.style.display = 'block';
+                }
+            }
+        </script>
+</body>
+
+</html>

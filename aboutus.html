@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Delocate</title>
+    <link rel="stylesheet" type="text/css" href="aboutus.css">
+    <link rel="stylesheet" href="https://kit.fontawesome.com/c7cba7c9fe.js" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/c7cba7c9fe.js" crossorigin="anonymous"></script>
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="menu">
+            <!-- "Back" button to close the menu -->
+            <div class="back-button" onclick="toggleMenu()">&#10006;</div>
+
+
+            <ul>
+                <li><a href="#"><i class="fa-solid fa-house" style="color: red;"></i> Home</a></li>
+                <li><a href="#"><i class="fa-sharp fa-solid fa-map-location-dot" style="color: #0f0a52;"></i> Map</a>
+                </li>
+                <li><a href="#"><i class="fa-solid fa-utensils" style=" color: #237816;"></i>Restaurant</a></li>
+                <li><a href="#"><i class="fa-regular fa-address-card" style=" color: #039BE5;"></i> About us</a></li>
+                <li><a href="#"><i class="fa-solid fa-sliders" style=" color: #FFA500;"></i> Settings</a></li>
+                <li><a href="#"><i class="fa-solid fa-right-from-bracket"></i> Log out</a></li>
+                </ol>
+            </ul>
+        </div>
+
+        <div class="content">
+
+            <div class="menu-button" onclick="toggleMenu()">&#9776;</div>
+        </div>
+      
+<div class="about">
+<div class="contents">
+    <h3>About us</h3>
+   
+    <li>This app can help you navigate<br> a restaurant  that serve native food <br> and delicaciesaround Iloilo City </li>
+   <li>This application also helps small <br> business to be known for their dishes</li>
+</div>
+
+<div class="contact">
+    <h3>Contact us</h3>
+</div>
+<div class="socmed">
+    <a href="#" > <img src="facebook.png"> </a>
+    <a href="#" >  <img src="gmail.png"> </a>
+    <a href="#" >  <img src="yahoo.png"> </a>
+
+
+</div>
+
+</div>
+    
+<div class="logo">
+
+</div>
+<div class="footer">
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    <script>
+        function toggleMenu() {
+            const menu = document.querySelector('.menu');
+            const menuButton = document.querySelector('.menu-button');
+            const backButton = document.querySelector('.back-button');
+
+            if (menu.style.left === '0px') {
+                menu.style.left = '-290px';
+                menuButton.style.display = 'block';
+                backButton.style.display = 'none';
+            } else {
+                menu.style.left = '0px';
+                menuButton.style.display = 'none';
+                backButton.style.display = 'block';
+            }
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Delocate</title>
+    <link rel="stylesheet" type="text/css" href="home1.css">
+    <link rel="stylesheet" href="https://kit.fontawesome.com/c7cba7c9fe.js" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/c7cba7c9fe.js" crossorigin="anonymous"></script>
+    
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="menu">
+            <!-- "Back" button to close the menu -->
+            <div class="back-button" onclick="toggleMenu()">&#10006;</div>
+
+
+            <ul>
+                <li><a href="#"><i class="fa-solid fa-house" style="color: red;"></i> Home</a></li>
+                <li><a href="#"><i class="fa-sharp fa-solid fa-map-location-dot" style="color: #0f0a52;"></i> Map</a>
+                </li>
+                <li><a href="#"><i class="fa-solid fa-utensils" style=" color: #237816;"></i>Restaurant</a></li>
+                <li><a href="#"><i class="fa-regular fa-address-card" style=" color: #039BE5;"></i> About us</a></li>
+                <li><a href="#"><i class="fa-solid fa-sliders" style=" color: #FFA500;"></i> Settings</a></li>
+                <li><a href="#"><i class="fa-solid fa-right-from-bracket"></i> Log out</a></li>
+                </ol>
+            </ul>
+        </div>
+
+        <div class="content">
+
+            <div class="menu-button" onclick="toggleMenu()">&#9776;</div>
+
+            <div class="bell"><i class="fa-solid fa-bell" style="color: #ebb747;"></i></div>
+            <div class="searchbar">
+                <i class="fas fa-search search-icon"></i>
+                <input type="search " name="Search" placeholder="           Search for food">
+            </div>
+            <img src="cabs.jpg">
+        </div>
+        <div class="logo"><img src="DELOCATE (1) 1.png" >
+        </div>
+        <div class="contents">
+            
+            <div class="firstcon">   
+                <h1> Lapaz Batchoy</h1>
+                <p>Open daily from 9:00 AM – 9:00 PM <br>
+                    +63 33 337 3027 <br>
+                    Tinda Lapaz Lapaz, Iloilo City
+                </p>
+            </div>
+            <div class="secondcon">  
+                <h1> Apan-Apan</h1>
+                <p>Open daily from 10:00 AM - 5:00PM <br>
+                    +63 926 994 1462 <br>
+                    Purok 3 ,Pavia Iloilo 
+                </p> 
+            </div>
+            <div class="thirdcon">   <h1> Apan-Apan</h1>
+                <p>Open daily from 11:00 AM – 2:00 PM 
+                    and<br> 5:00 PM – 11:00 PM <br>
+                    +63 33 329 6951 <br>
+                    Punot Mandurriao, Iloilo City
+
+                </p>  
+            </div>
+        </div>
+        <div class="footer">
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    <script>
+        function toggleMenu() {
+            const menu = document.querySelector('.menu');
+            const menuButton = document.querySelector('.menu-button');
+            const backButton = document.querySelector('.back-button');
+
+            if (menu.style.left === '0px') {
+                menu.style.left = '-290px';
+                menuButton.style.display = 'block';
+                backButton.style.display = 'none';
+            } else {
+                menu.style.left = '0px';
+                menuButton.style.display = 'none';
+                backButton.style.display = 'block';
+            }
+        }
+    </script>
+</body>
+
+</html>
