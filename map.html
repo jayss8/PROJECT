@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Delocate</title>
+    <link rel="stylesheet" type="text/css" href="map.css">
+    <link rel="stylesheet" href="https://kit.fontawesome.com/c7cba7c9fe.js" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/c7cba7c9fe.js" crossorigin="anonymous"></script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .map-container {
+            width: 390px;
+            height: 781px;
+            position: relative;
+        }
+
+        .map {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 390px;
+            height: 781px;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 40px;
+            left: 0;
+            width: 390px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .search-bar {
+            margin-top: 20px;
+            padding: 10px;
+            width: 200px;
+            height: 30px;
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .back-button {
+          border: 0 inset rgb(192, 182, 182);
+          width: 50px;
+          height: 45px;
+          background-color:#F8F2BD;
+          box-shadow: 1px 2px 2px 2px inset gray ;
+          text-align: center;
+            font-size: 40px;
+            margin-top: 10px;
+            margin-right: 250px;
+            color: #f0b128;
+            cursor: pointer;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+<div class="map-container">
+    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d62721.29448567108!2d122.57198079999998!3d10.728243199999998!
+        2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sph!4v1696906285629!5m2!1sen!2sph"
+            style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+    <div class="overlay">
+        <a href="#" class="back-button">
+            <i class="fas fa-arrow-left" style="color: #f0b128;"></i>
+        </a>
+        <input class="search-bar" type="text" placeholder="Search for a location">
+    </div>
+</div>
+</body>
+</html>
